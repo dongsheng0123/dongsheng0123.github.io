@@ -29,7 +29,7 @@
             "url": "https://dongsheng0123.github.io/ming-xiang-cang.html",
             "title": "冥想仓",
             "summary": "我的代表作之一。",
-            "content_html": "\n  <p>\n    我的代表作之一。\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://dongsheng0123.github.io/media/posts/6/WPSTu-Pian1-2.jpeg\" height=\"2385\" width=\"4402\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xs.jpeg 300w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-sm.jpeg 480w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-md.jpeg 768w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-lg.jpeg 1024w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xl.jpeg 1360w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-2xl.jpeg 1600w\">\n      <figcaption>当时做的展板</figcaption>\n    </figure>\n\n  <p>\n    \n  </p>",
+            "content_html": "\n  <p>\n    我的代表作之一。\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://dongsheng0123.github.io/media/posts/6/WPSTu-Pian1-2.jpeg\" height=\"2385\" width=\"4402\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xs.jpeg 300w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-sm.jpeg 480w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-md.jpeg 768w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-lg.jpeg 1024w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xl.jpeg 1360w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-2xl.jpeg 1600w\">\n      <figcaption>当时做的方案折页</figcaption>\n    </figure>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://dongsheng0123.github.io/media/posts/6/0307-Ming-Xiang-Cang-Zhe-Ye-2.jpg\" height=\"3071\" width=\"5669\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-xs.jpg 300w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-sm.jpg 480w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-md.jpg 768w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-lg.jpg 1024w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-xl.jpg 1360w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-2xl.jpg 1600w\">\n      <figcaption>折页背面</figcaption>\n    </figure>\n\n  <p>\n    \n  </p>",
             "author": {
                 "name": "刘东升"
             },
@@ -37,7 +37,7 @@
                    "产品"
             ],
             "date_published": "2025-03-11T20:15:33+08:00",
-            "date_modified": "2025-03-11T20:21:24+08:00"
+            "date_modified": "2025-03-11T20:54:31+08:00"
         },
         {
             "id": "https://dongsheng0123.github.io/stable-diffusion.html",

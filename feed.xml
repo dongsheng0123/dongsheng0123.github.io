@@ -3,7 +3,7 @@
     <title>PORTFOLIO</title>
     <link href="https://dongsheng0123.github.io/feed.xml" rel="self" />
     <link href="https://dongsheng0123.github.io" />
-    <updated>2025-03-11T20:23:39+08:00</updated>
+    <updated>2025-03-11T20:54:31+08:00</updated>
     <author>
         <name>刘东升</name>
     </author>
@@ -61,7 +61,12 @@
 
     <figure class="post__image post__image--center">
       <img loading="lazy" src="https://dongsheng0123.github.io/media/posts/6/WPSTu-Pian1-2.jpeg" height="2385" width="4402" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xs.jpeg 300w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-sm.jpeg 480w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-md.jpeg 768w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-lg.jpeg 1024w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-xl.jpeg 1360w ,https://dongsheng0123.github.io/media/posts/6/responsive/WPSTu-Pian1-2-2xl.jpeg 1600w">
-      <figcaption>当时做的展板</figcaption>
+      <figcaption>当时做的方案折页</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://dongsheng0123.github.io/media/posts/6/0307-Ming-Xiang-Cang-Zhe-Ye-2.jpg" height="3071" width="5669" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-xs.jpg 300w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-sm.jpg 480w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-md.jpg 768w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-lg.jpg 1024w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-xl.jpg 1360w ,https://dongsheng0123.github.io/media/posts/6/responsive/0307-Ming-Xiang-Cang-Zhe-Ye-2-2xl.jpg 1600w">
+      <figcaption>折页背面</figcaption>
     </figure>
 
   <p>
