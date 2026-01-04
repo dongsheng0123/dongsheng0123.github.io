@@ -1,38 +1,27 @@
 // Sticky menu
 let newScrollPosition = 0;
 let lastScrollPosition;
-const header = document.getElementById("js-header");
-const stickyMenu = document.getElementById("js-navbar-menu");
+const header = document.getElementById("js-top");
 
-if (header) {
-    window.addEventListener('scroll', () => {
-        lastScrollPosition = window.scrollY;
+window.addEventListener('scroll', () => {
+    lastScrollPosition = window.scrollY;
 
-        // Scrolling down
-        if (newScrollPosition < lastScrollPosition && lastScrollPosition > 80) {
-            header.classList.remove("is-visible");
-            header.classList.add("is-hidden");
+    // Scrolling down
+    if (newScrollPosition < lastScrollPosition && lastScrollPosition > 184) {
+        header.classList.remove("is-visible");
+        header.classList.add("is-hidden");
+    // Scrolling up
+    } else if (newScrollPosition > lastScrollPosition) {
+        header.classList.remove("is-hidden");
+        header.classList.add("is-visible");
+    }
 
-        // Scrolling up
-        } else if (newScrollPosition > lastScrollPosition) {
-            header.classList.remove("is-hidden");
-            header.classList.add("is-visible");
-            if (stickyMenu) {
-                stickyMenu.classList.add("is-sticky");
-            }
-        }
+    if (lastScrollPosition < 184) {
+        header.classList.remove("is-visible");
+    }
 
-        if (lastScrollPosition < 1) {
-            header.classList.remove("is-visible");
-
-            if (stickyMenu) {
-                stickyMenu.classList.remove("is-sticky");
-            }
-        }
-
-        newScrollPosition = lastScrollPosition;
-    });
-}
+    newScrollPosition = lastScrollPosition;
+});
 
 
 
@@ -466,6 +455,27 @@ if (header) {
 })(window.publiiThemeMenuConfig);
 
 
+// Load search input area
+const searchButton = document.querySelector(".js-search-btn");
+const searchOverlay = document.querySelector(".js-search-overlay");
+const searchClose = document.querySelector(".js-search-close");
+const searchInput = document.querySelector("[type='search']");
+
+if (searchButton && searchOverlay && searchClose) {
+    searchButton.addEventListener("click", () => {
+        searchOverlay.classList.add("expanded");
+        if (searchInput) {
+            setTimeout(() => {
+                searchInput.focus();
+            }, 60);
+        }
+    });
+
+    searchClose.addEventListener("click", () => {
+        searchOverlay.classList.remove("expanded");
+    });
+}
+
 // Share buttons pop-up
 (function () {
     // share popup
@@ -538,34 +548,23 @@ if (header) {
     }
 })();
 
+// Back to top
+const backToTopButton = document.getElementById("backToTop");
 
-// Load search input area
-const searchButton = document.querySelector('.js-search-btn');
-const searchOverlay = document.querySelector('.js-search-overlay');
-const searchInput = document.querySelector('[type="search"]');
-
-if (searchButton && searchOverlay) {
-    searchButton.addEventListener('click', (e) => {
-        e.stopPropagation();
-        searchOverlay.classList.toggle('expanded');
-
-        if (searchInput) {
-            setTimeout(() => {
-                if (searchOverlay.classList.contains('expanded')) {
-                    searchInput.focus();
-                }
-            }, 60);
+if (backToTopButton) {
+    window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            backToTopButton.classList.add("is-visible");
+        } else {
+            backToTopButton.classList.remove("is-visible");
         }
     });
 
-    searchOverlay.addEventListener('click', (e) => {
-        e.stopPropagation();
-    });
-
-    document.body.addEventListener('click', () => {
-        searchOverlay.classList.remove('expanded');
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 }
+
 
 // Responsive embeds script
 (function () {
